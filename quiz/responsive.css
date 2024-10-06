@@ -1,0 +1,136 @@
+@media only screen and (max-width:1300px){
+   .card {
+     width: 60%;
+   }
+   .score {
+     font-size: 40px;
+   }
+}
+@media only screen and (max-width:998px){
+    .card {
+      width: 70%;
+    }
+    .card h2 {
+        font-size:28px ;
+   }
+   .card li {
+        font-size: 17px;
+   }
+   h1 {
+        font-size: 34px;
+   }
+   .score {
+     font-size: 35px;
+ }
+ .percentage {
+     width: 50px;
+     height: 50px;
+     border-radius: 180px;
+     font-size: 45px;
+    padding: 100px;
+ }
+ }
+ @media only screen and (max-width:700px){
+    .card {
+      width: 80%;
+    }
+    .mcqs{
+       
+        margin: 0px 10px;
+    }
+    .mcqs div {
+         font-size: 18px;
+    }
+    #btn {
+        width: 130px;
+        height: 50px;
+        font-size: 24px;
+ }
+ .score {
+     font-size: 30px;
+ }
+ .percentage {
+     width: 40px;
+     height: 40px;
+     border-radius: 150px;
+     font-size: 40px;
+    padding: 80px;
+ }
+}
+ @media only screen and (max-width:600px){
+    .card {
+      width: 85%;
+     
+    }
+    .card h2 {
+         font-size:26px ;
+    }
+    .card li {
+         font-size: 16px;
+         line-height: 1.1em;
+       
+    }
+   .card ul {
+         padding: 25px;
+    }
+    h1 {
+         font-size: 30px;
+    }
+    .intro button {
+        width: 130px;
+        height: 50px;
+    font-size: 23px;
+}
+ 
+ .mcqs {
+    margin: 0px ;
+}
+.mcqs div {
+    font-size: 15px;
+}
+.score {
+     font-size: 25px;
+     margin: 10px 30px;
+ }
+ .percentage {
+     width: 30px;
+     height: 30px;
+     border-radius: 130px;
+     font-size: 35px;
+    padding: 60px;
+ }
+ }
+ @media only screen and (max-width:400px){
+.card ul {
+   padding: 5px;
+     padding-left: 15px;
+}
+ .card h2 {
+    font-size:24px ;
+}
+.card li {
+    font-size: 15px;
+    line-height: 1em;
+  
+}
+
+h1 {
+    font-size: 27px;
+}
+input {
+     width: 200px;
+}
+#btn {
+     font-size: 20px;
+}
+.score {
+     font-size: 20px;
+ }
+ .percentage {
+     width: 25px;
+     height: 25px;
+     border-radius: 100px;
+     font-size: 30px;
+    padding: 50px;
+ }
+}

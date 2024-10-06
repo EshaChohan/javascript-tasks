@@ -1,0 +1,63 @@
+@media only screen and (max-width:750px) {
+    .card {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .card {
+        width: 70%;
+    }
+    .card h1{
+        font-size:30px ;
+    }
+    .card .task-list {
+       
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .card {
+       width: 100%;
+       margin: 0px 20px;
+       padding: 10px;
+    }
+    .card h1{
+        font-size:26px ;
+    }
+.task-list {
+    padding: 0px 10px;
+    margin: 0px;
+}
+    .task-list input {
+        width: 100%;
+        margin: 0px;
+       
+    }
+    .task-list img {
+        padding: 0px;
+        height: 25px;
+  width: 25px;
+  border-radius: 0px;
+    }
+    h5 {
+        margin: 15px 0px;
+        font-size: 20px !important;
+      }
+      li {
+        padding: 0px 5px;
+        font-size: 20px !important;
+        margin-left: -40px;
+      }
+      .task-icons {
+        width: 20px;
+        height: 20px;
+        padding: 3px;
+        background-color: white;
+        border-radius: 5px;
+        border: 1px solid black;
+        margin-top: 5px;
+        margin-left: 2px;
+      }
+}

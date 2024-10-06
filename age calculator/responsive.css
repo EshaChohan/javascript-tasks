@@ -1,0 +1,29 @@
+@media only screen and (max-width:750px) {
+    .calculator {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .calculator {
+        width: 70%;
+    }
+    .calculator h1{
+        font-size:30px ;
+    }
+    .calculator h2 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .calculator {
+        width: 75%;
+    }
+    .calculator h1{
+        font-size:26px ;
+    }
+    .calculator h2 {
+        font-size: 19px;
+    }
+}

@@ -1,0 +1,45 @@
+body {
+    background-image: url(Assets/background\ image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1 {
+    color: white;
+    font-size: 55px;
+    font-family: Segoe UI;
+    text-align: center;
+}
+p {
+     font-size: 24px;
+     color: rgb(228, 214, 214);
+     text-align: center;
+     margin: 10px 300px;
+}
+.task-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center !important ;
+    margin: 30px;
+}
+.task-list div {
+     width: 20rem;
+     border: 3px solid black;
+     border-radius: 20px;
+     text-align: center;
+     margin: 20px;
+     padding: 10px 0px;
+     padding-bottom: 50px;
+     background-color: rgba(0, 0, 0, 0.205);
+
+}
+.task-list div img {
+     height: 200px;
+     width: 200px;
+     border-radius: 20px;
+}
+h2 {
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+}

@@ -1,0 +1,87 @@
+@media only screen and (max-width:1165px){
+    p {
+        margin: 10px 100px;
+    }
+    .task-list div img {
+        height: 160px;
+        width: 160px;
+    }
+    .task-list div{
+        width: 18rem;
+    }
+}
+ @media only screen and (max-width:810px){
+    p {
+        margin: 10px 50px;
+        font-size: 22px;
+        h1 {
+            font-size: 50px;
+       }
+    }
+    h2 {
+        font-size: 26px;
+    }
+    .task-list div img {
+        height: 150px;
+        width: 150px;
+    }
+    .task-list div{
+        width: 17rem;
+        border: 2px solid black;
+    }
+}
+@media only screen and (max-width:600px){
+    p {
+        margin: 10px;
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    .task-list div img {
+        height: 120px;
+        width: 120px;
+    }
+    .task-list div{
+        width: 15rem;
+    }
+}
+@media only screen and (max-width:500px){
+    p {
+        font-size:18px ;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .task-list div img {
+        height: 100px;
+        width: 100px;
+    }
+    .task-list div{
+        width: 14rem;
+    }
+}
+@media only screen and (max-width:400px){
+    p {
+        font-size:16px ;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .task-list div img {
+        height: 80px;
+        width: 80px;
+    }
+    .task-list div{
+        width: 13rem;
+    }
+}
